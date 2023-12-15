@@ -1,0 +1,25 @@
+{
+  "name": "endata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rudhi Wahyudi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "init": "^0.1.2",
+    "moment": "^2.29.4",
+    "mustache": "^4.2.0",
+    "mysql2": "^3.3.5",
+    "nodemailer": "^6.9.3",
+    "qrcode": "^1.5.3"
+  }
+}

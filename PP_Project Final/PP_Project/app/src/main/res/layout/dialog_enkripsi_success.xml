@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="25dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:gravity="center"
+        android:background="@drawable/bg_circle"
+        android:layout_height="100dp">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_check"
+            app:tint="@color/primary" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="14sp"
+        android:text="Hore Enkripsi Berhasil"/>
+    <Button
+        android:id="@+id/btnOke"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Oke"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_btn_login"/>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/bg_fetch_riwayat_enkripsi"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/rounded_btn_login"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selesai"
+                android:fontFamily="@font/calibri_regular"
+                android:textSize="8sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tanggalDokumen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/calibri_regular"
+            android:textColor="#808495"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/namaDokumen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/thridBlack"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/calibri_regular"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/jenisDokumen"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:id="@+id/cekDokumen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#CF2020"
+            android:layout_centerVertical="true"
+            android:textSize="12sp"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/calibri_regular"
+            android:layout_marginTop="5dp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

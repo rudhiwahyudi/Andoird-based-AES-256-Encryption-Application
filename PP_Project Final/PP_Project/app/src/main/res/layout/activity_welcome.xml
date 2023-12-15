@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/regiterpage"
+        tools:context=".user.WelcomeActivity"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="267dp"
+            android:layout_gravity="center"
+            android:src="@drawable/welcomeimage"
+            android:layout_marginTop="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_1"
+            android:padding="30dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/calibri_bold"
+                android:text="Selamat Datang di En-Data"
+                android:textColor="@color/black"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Solusi Pengamanan Data Rekam Medis Anda "
+                android:textSize="20sp"
+                android:fontFamily="@font/calibri_bold"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btnWelcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/bg_button"
+                android:text="Lanjutkan"
+                android:fontFamily="@font/calibri_bold"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Klik Lanjutkan, Jika anda menerima peraturan dan kondisi pada sistem"
+                android:textSize="15sp"
+                android:fontFamily="@font/calibri_regular"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:paddingStart="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
